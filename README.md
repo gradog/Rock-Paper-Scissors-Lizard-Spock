@@ -1,2 +1,4 @@
 # Rock-Paper-Scissors-Lizard-Spock
-Simple Interface for "Rock Paper Scissors Lizard Spock" Game
+
+Adding a new interface that supports more games
+New game "Throw the Dice"
