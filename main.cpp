@@ -27,8 +27,6 @@ int main (){
     
     // READ LOGs
     ifstream logRd, tmpRd;
-    
-    
     logRd.open ("log.txt");
     
     if (logRd.is_open ()){
@@ -63,22 +61,22 @@ int main (){
         
         
         // LOG NEW PLAYER
-        ofstream tempWr, logWr;
+        ofstream tmpWr, logWr;
         logRd.open("log.txt");
-        tempWr.open ("tmp.txt");
+        tmpWr.open ("tmp.txt");
         
-        if (!known && tempWr.is_open ()){
+        if (!known && tmpWr.is_open ()){
             logRd >> line;
             
             // copy log.txt to temp.txt
             while (line != "XXX"){
-                tempWr << line << endl;
+                tmpWr << line << endl;
                 logRd >> line;
-                tempWr << line << endl;
+                tmpWr << line << endl;
                 logRd >> line;
             }
-            tempWr << "XXX";
-            tempWr.close ();
+            tmpWr << "XXX";
+            tmpWr.close ();
             logRd.close ();
             
             
@@ -221,6 +219,3 @@ int main (){
     
     return 0;
 }
-
-
-
