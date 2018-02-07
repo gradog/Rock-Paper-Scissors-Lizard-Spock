@@ -1,0 +1,16 @@
+The game is played between two players: the machine and the user.
+On each play, the computer chooses its element first
+and then he asks you to choose it.
+If both elements are the same, then a tie occurs.
+If not, whoever wins is established by these rules:
+- Scissors cut the paper
+- Paper envelops the stone
+- The stone crushes the lizard
+- The lizard poisons Spock
+- Spock breaks the scissors
+- Scissors decapitate the lizard
+- The lizard devours the paper
+- The paper unauthorizes Spock
+- Spock vaporizes the stone
+- Stone crushes scissors
+XXX
